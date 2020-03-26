@@ -44,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/ervandra/covid19/issues"
   },
-  "homepage": "https://ervandra.github.io/covid19",
+  "homepage": "https://covid19id.netlify.com",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
