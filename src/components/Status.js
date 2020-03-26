@@ -8,6 +8,7 @@ const Grid = styled.div`
   grid-gap: 2rem;
   @media screen and (max-width: 480px){
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
   }
 `;
 const Block = styled.div`
@@ -45,6 +46,12 @@ const Block = styled.div`
   span {
     font-size: 3rem;
     font-weight: bold;
+    line-height: 1.2;
+  }
+  h3, h4, h5 {
+    span {
+      font-size: 1.5rem;
+    }
   }
   h3 + span {
     color: #FF7849;
